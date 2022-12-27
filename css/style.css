@@ -1,0 +1,532 @@
+body {
+	margin : 0;
+	font-family : Georgia, "Times New Roman", Times, serif;
+	background : #FFF;
+	font-size : 12px;
+}
+a{
+	text-decoration:none;
+}
+#page {
+	width : 930px;
+	margin-left : auto;
+	margin-right : auto;
+	border: 1px solid #ccc6;
+}
+/*Start CSS  Header*/
+#logo {
+	margin-left : 24px;
+	position : absolute;
+	width : 188px;
+	height : 136px;
+	background-image : url(../images/logo.png);
+}
+#contact {
+	height : 72px;
+	background : url(../images/1.png) no-repeat;
+}
+#menu {
+	height : 50px;
+	background : #2394ba;
+}
+#menu ul {
+	margin-top : 1px;
+	padding : 14px;
+	margin-left : 205px;
+}
+#menu ul li {
+	display : inline;
+	padding : 3px;
+}
+
+#menu ul li a {
+	font-size : 15px;
+	color : #FFF;
+	text-decoration : none;
+}
+#car {
+	background : url(../images/Car.png)no-repeat;
+	height : 246px;
+}
+.paiement {
+	float : left;
+	width : 250px;
+	margin-left : 180px;
+}
+.paiement h4 {
+	color : #397899;
+	margin-left : 45px;
+}
+.paiement ul li {
+	display : inline;
+	list-style : none;
+}
+.phone {
+	float : left;
+}
+.phone p {
+	font-size : 18px;
+	color : #0f7598;
+}
+.pays {
+	float : right;
+	margin-right:5px;
+}
+.pays ul li {
+	display : inline;
+	list-style : none;
+}
+.pays ul li  a{
+	text-decoration:none;
+}
+.btnsearch{
+	font-size: 16px;
+	color: #0F7598;
+	background: url(../images/search_icon.png)no-repeat;
+	width:25px;
+	border:0px;
+}
+/*End CSS  Header*/
+/*Start CSS  Content*/
+#content {
+	min-height : 910px;
+}
+#content h2{
+	background-color: #FECB00;
+	padding: 10px;
+}
+#content table a{
+	color:#FFF;
+	font-size:16px;
+	text-decoration: none;
+}
+#offre {
+	height : 145px;
+	float:left;
+}
+#offre h2 {
+	margin : 11px;
+	background-color: #F90;
+	padding: 10px;
+	color:#FFF;
+}
+
+#content div {
+	display : inline-block;
+}
+.booking{
+  color: #ffffff;
+  text-decoration: none;
+  background-image: url(../images/button-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding:15px;
+}
+.intro{
+	padding:10px;
+}
+.one {
+	background : url(../images/b.png) no-repeat;
+	width : 210px;
+	height : 127px;
+	float : left;
+	margin : 13px;
+}
+.two {	
+	background : url(../images/disney1.png) no-repeat;	
+	width : 210px;
+	height : 127px;
+	float : left;
+	margin-top : 13px;
+
+}
+.two h4 {
+	color : #fff;
+	margin:5px;
+}
+.two .disney {
+	color : #ffcc00;
+	margin:7px;
+}
+.adulets {
+	font-size : 16px;
+	color : #FFF;
+	margin-left : 60px;
+}
+.two a{
+	float : right;
+	color : #ffffff;
+	text-decoration : none;
+	background: url(../images/button-1.png)no-repeat;
+	width:80px;
+	height:23px;
+	padding:3px;
+}
+
+.three {
+	margin: 13px 4px 4px 4px;
+	width : 210px;
+	background: url(../images/t2.png)no-repeat;
+}
+.three h4{
+	color:#FFF;
+	padding:10px;
+}
+.three p{
+	color:#FFF;
+}
+.three a{
+	float : right;
+	color : #ffffff;
+	text-decoration : none;
+	padding : 49px;
+	background: url(../images/button-1.png)no-repeat;
+	background-position : center;
+	margin-top : -56px;
+	margin-right : -33px;
+}
+#promo {
+ 	background-image : url(../images/b.png);
+	width : 205px;
+	height : 123px;
+	margin-left : 225px;
+	margin-right : 498px;
+
+}
+#avis {	
+	background-image : url(../images/b.png);
+	width : 205px;
+	height : 123px;
+	margin-left : 8px;
+	margin-right : 716px;
+}
+#form {
+	background-image : url(../images/inscrire.png);
+	margin-top : -221px;
+	position : absolute;
+	width : 263px;
+	height : 364px;
+	float :left;
+}
+.reservation {
+	background : url(../images/2.png)no-repeat;
+    margin:2px 3px 0 3px;
+	font-size : 20px;
+	color : #FCB000;
+	font-family : Arial;
+	padding : 8px;
+}
+.form p {
+	color : #ffffff;
+	margin : 8px;
+}
+.suivant {
+    margin:22px 14px 0 0;
+	font-size : 18px;
+	color : #FFF;
+	float : right;
+	height : 36px;
+	width : 113px;
+	background-color:#FCB000;
+}
+/*End CSS Content*/
+/*Start CSS Footer*/
+#footer {
+	background : #d7e4f5;
+	height : 367px;
+}
+.rightfooter {
+	font-size : 10px;
+	color : #646c77;
+	float : right;
+	width : 170px;
+	margin-right : 8px;
+}
+.rightfooter ul li {
+	float : right;
+	list-style : none;
+}
+.h3 {
+	width:282px;
+	font-size : 14px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left :8px;
+	color : #438404;
+}
+.lienfooter {
+	margin-left : 21px;
+	font-size:14px;
+	font-weight:bold;
+	color : #646c77;
+}
+.copyright{
+	background-color: #D7E4F5;
+    padding: 10px;
+    text-align: center;
+}
+.copyright a{
+	color:#FCB000;
+	font-weight:bold;
+	text-decoration:none;
+}
+.ok2 {
+	margin-left : 148px;
+	font-size : 24px;
+	height : 30px;
+	background-repeat : no-repeat;
+	background-image : url(../images/26.png);
+}
+.specail {
+	margin-right:48px;
+	font-family:Arial, Helvetica, sans-serif;
+	width: 244px;
+	font-size : 27px;
+	color : #087b98;
+}
+.ok {
+margin-left : 111px;
+
+height : 30px;
+background-repeat : no-repeat;
+background-image : url(../images/25.png);
+}
+.ok a {
+	font-size : 24px;
+	padding : 37px;
+	text-decoration : none;
+	color : #ffffff;
+	font-weight: bold;
+}
+.ok2 a {
+	padding : 37px;
+	text-decoration : none;
+	color : #ffffff;
+	font-weight: bold;
+}
+.lienfooter a {
+	color : #646c77;
+	text-decoration : none;
+	list-style : none;
+}
+
+/*End CSS Footer*/
+/*Start css index*/
+.N {
+	font-size : 18px;
+	margin : 20px;
+	color : #ff9800;
+}
+.h5 {
+	margin : 6px;
+	color:#FFF;
+}
+.pack {
+	float : left;
+	width : 250px;
+	height : 127px;
+	margin:26px;
+	text-align:center;
+	color:#FCB000;
+	font-size:14px;
+}
+.pack a{
+	padding: 6px;
+	border-radius: 4px;
+	background-color:#FCB000;
+	border:0px;
+	color:#FFF;
+}
+.service {
+	float : left;
+	width : 170px;
+	height : 127px;
+	margin:85px 57px 0 0;
+	text-align:center;
+}
+.service h3{
+	padding: 10px;
+	background-color: #FECB00;
+}
+.service p {
+	color:#938D8D;
+	font-size:12px;
+}
+.avis {
+	color : #ffffff;
+	text-decoration : none;
+	background-image : url(../images/button-1.png);
+	background-repeat : no-repeat;
+	background-position : center;
+	text-align : center;
+	float: right;
+	width: 80px;
+	height: 24px;
+}
+/*End css index*/
+/*Start css Vehicules*/
+.car{
+	width: 280px;
+	height: 250px;
+	border: 1px solid #ccc;
+	margin:20px 0 0 5px;
+	padding:10px;
+}
+.car_detail{
+	width: 280px;
+	height: 200px;
+	border: 1px solid #ccc;
+	margin:20px 0 0 5px;
+	float:left;
+	padding:10px;
+}
+.car h3{
+	text-align: center;
+}
+.car p span{
+   font-size: 20px;
+	color: #FCB000;
+}
+.Detail{
+	width: 524px;
+	height: 200px;
+	border: 1px solid #ccc;
+	margin:20px 0 0 5px;
+	float:left;
+	padding:10px;
+}
+/*End css Vehicules*/
+.lienfooter ul li {
+	display : inline;
+	text-decoration : none;
+}
+.liste {
+	font-size : 18px;
+	color : #4793ae;
+	float : left;
+}
+.type {
+	margin-left : 14px;
+	color : #ffffff;
+	font-size : 12px;
+}
+.content-left {
+	margin-left: 468px;
+	margin-top : -310px;
+	float : left;
+	width : 201px;
+}
+
+.select {
+	margin-left : 8px;
+	font-size : 11px;
+	height : 17px;
+	width : 195px;
+	border : #000000 solid 1px;
+	color : #000000;
+}
+
+/*Start Css Login*/
+.Login input[type=text],input[type=password]{
+	width: 250px;
+	height: 20px;
+	border: 1px solid #CCC;
+	color: #AAA;
+	font-size: 14px;
+}
+.Login input[type=submit]{
+	width: 150px;
+	height: 30px;
+	color: #FFF;
+	font-size: 18px;
+	background-color: #FCB000;
+}
+.Login fieldset{
+width: 250px;
+margin: 106px 267px auto auto;
+background-color: #EEE;
+height: 250px;
+}
+.Login table{
+height: 250px;
+}
+.retour{
+	text-align:center;
+}
+.retour a{
+	text-decoration: none;
+}
+.Login input[type=reset]{
+	width: 150px;
+	height: 30px;
+	color: #FFF;
+	font-size: 18px;
+	background-color: #FCB000;
+}
+/*End Css Login*/
+/*Start Css insrit*/
+.inscrit input[type=text],input[type=password], textarea{
+	width: 250px;
+	height: 20px;
+	border: 1px solid #CCC;
+	color: #CCC;
+	font-size: 14px;
+}
+.inscrit input[type=submit]{
+	width: 150px;
+	height: 30px;
+	color: #FFF;
+	font-size: 18px;
+	background-color: #FCB000;
+}
+.inscrit fieldset{
+	width: 250px;
+	margin: 106px 267px auto auto;
+	background-color: #EEE;
+	height: auto;
+}
+
+.inscrit input[type=reset]{
+	width: 150px;
+	height: 30px;
+	color: #FFF;
+	font-size: 18px;
+	background-color: #FCB000;
+}
+/*End Css insrit*/
+/*Start Css Vehicule_Detail*/
+.booking2{
+  color: #ffffff;
+  text-decoration: none;
+  background-image: url(../images/button-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding:15px;
+  float:right;
+}
+/*End Css Vehicule_Detail*/
+.error-page{
+	width: 600px;
+	margin: 0px 0px 0px 187px;
+}
+.error-page h1{
+	text-align: center;
+	color: #FECB00;
+	font-size: 100px;
+	font-weight: 300;
+}
+.error-page >.error-content{
+	margin-left: 190px;
+}
+.error-page >.error-content >h3{
+	font-weight: 300;
+	font-size: 25px;
+}
+/*Start Css FAQ*/
+.intro h3{
+	padding: 10px;
+	background-color: #FECB00;
+}
+/*End Css FAQ*/
+
